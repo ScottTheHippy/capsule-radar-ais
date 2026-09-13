@@ -66,6 +66,8 @@ The Waveshare **`-G`** board has an onboard GPS (Quectel **LC76G**). Turn it on 
 
 Waveshare **ESP32-S3-Touch-AMOLED-1.75**: ESP32-S3R8 (8 MB PSRAM, 16 MB flash), **CO5300** AMOLED over QSPI, **CST9217** touch, **QMI8658** IMU, **PCF85063** RTC, **AXP2101** PMIC, **ES8311** audio + speaker. All pins are in [`src/config.h`](src/config.h) (verified, no guessing). Buy the board **without the plastic case** if you're printing the [enclosure](docs/MAKERWORLD.md).
 
+**Where to buy**: [Waveshare store](https://www.waveshare.com/esp32-s3-touch-amoled-1.75.htm) (often on backorder), or the **-G** version on Amazon — its GPS is genuinely useful here (automatic home point on a boat or on the move): 🇺🇸 [.com](https://www.amazon.com/dp/B0F7XWWMJW?tag=capsuleradar-20) · 🇪🇸 [.es](https://www.amazon.es/dp/B0F7XWWMJW?tag=capsuleradar-21) · 🇩🇪 [.de](https://www.amazon.de/dp/B0F7XWWMJW?tag=capsulerada03-21) · 🇬🇧 [.co.uk](https://www.amazon.co.uk/dp/B0F7XWWMJW?tag=capsulerada0d-21) · 🇮🇹 [.it](https://www.amazon.it/dp/B0F7XWWMJW?tag=capsulerada08-21) · 🇫🇷 [.fr](https://www.amazon.fr/dp/B0F7XWWMJW?tag=capsulerada0e-21). Optional battery: 🇪🇸 [1100 mAh protected LiPo, MX1.25 plug](https://www.amazon.es/dp/B0F1FGZQS5?tag=capsuleradar-21) — check plug polarity against the board first. Avoid the "-B" (bundled case) and the unrelated "1.75C". <sub>Amazon links are affiliate links; as an Amazon Associate I earn from qualifying purchases.</sub>
+
 ## Build & flash (PlatformIO)
 
 ```bash

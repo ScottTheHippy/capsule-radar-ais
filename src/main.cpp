@@ -649,7 +649,7 @@ void loop() {
         ArduinoOTA.begin();
         MDNS.addService("http", "tcp", 80);
         otaUp = true;
-        Serial.println("[ota] ready: pio run -e esp32-s3-amoled-175-ota -t upload");
+        Serial.println("[ota] ready: pio run -e " BOARD_PIO_ENV "-ota -t upload");
     }
     if (otaUp) ArduinoOTA.handle();
 
